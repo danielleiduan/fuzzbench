@@ -3,7 +3,7 @@ trials: 5
 
 # The amount of time in seconds that each trial is run for.
 # 1 day = 24 * 60 * 60 = 86400
-max_total_time: 8640
+max_total_time: 30
 
 # The name of your Google Cloud project.
 cloud_project: hadai-research
