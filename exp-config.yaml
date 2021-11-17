@@ -6,7 +6,7 @@ trials: 1
 max_total_time: 30
 
 # The name of your Google Cloud project.
-cloud_project: danielduan-2020-internship
+cloud_project: rising-lei-2020-internship
 
 # The Google Compute Engine zone to run the experiment in.
 cloud_compute_zone: us-west1-b
@@ -18,4 +18,4 @@ cloud_experiment_bucket: gs://fuzzbench_danielduan_data
 cloud_web_bucket: gs://fuzzbench_danielduan_results
 
 # The connection to use to connect to the Google Cloud SQL instance.
-cloud_sql_instance_connection_name: "danielduan-2020-internship:us-west1:lei2020internship=tcp:5432"
+cloud_sql_instance_connection_name: "rising-lei-2020-internship:us-west1:lei2020internship=tcp:5432"
