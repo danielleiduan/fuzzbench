@@ -18,4 +18,4 @@ cloud_experiment_bucket: gs://fuzzbench_danielduan_data
 cloud_web_bucket: gs://fuzzbench_danielduan_results
 
 # The connection to use to connect to the Google Cloud SQL instance.
-cloud_sql_instance_connection_name: "rising-lei-2020-internship:us-west1:lei2020internship=tcp:5432"
+cloud_sql_instance_connection_name: "rising-lei-2020-internship:us-central1:lei2020internship=tcp:5432"
