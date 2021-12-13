@@ -431,6 +431,7 @@ class GoogleCloudDispatcher(BaseDispatcher):
         with tempfile.NamedTemporaryFile(dir=os.getcwd(),
                                          mode='w') as startup_script:
             self.write_startup_script(startup_script)
+            print(self.instance_name, gcloud.InstanceType.DISPATCHER, self.config, startup_script.name)
             if not gcloud.create_instance(self.instance_name,
                                           gcloud.InstanceType.DISPATCHER,
                                           self.config,

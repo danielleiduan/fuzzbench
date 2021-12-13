@@ -5,6 +5,10 @@ trials: 1
 # 1 day = 24 * 60 * 60 = 86400
 max_total_time: 30
 
+# The docker registry for your fuzzbench experiments.
+# If you use Google Cloud, this can be gcr.io/$PROJECT_NAME.
+docker_registry: gcr.io/rising-lei-2020-internship
+
 # The name of your Google Cloud project.
 cloud_project: rising-lei-2020-internship
 
@@ -12,10 +16,10 @@ cloud_project: rising-lei-2020-internship
 cloud_compute_zone: us-west1-b
 
 # The Google Cloud Storage bucket that will store most of the experiment data.
-cloud_experiment_bucket: gs://fuzzbench_danielduan_data
+experiment_filestore: gs://fuzzbench_danielduan_data
 
 # The bucket where HTML reports and summary data will be stored.
-cloud_web_bucket: gs://fuzzbench_danielduan_results
+report_filestore: gs://fuzzbench_danielduan_results
 
 # The connection to use to connect to the Google Cloud SQL instance.
 cloud_sql_instance_connection_name: "rising-lei-2020-internship:us-central1:lei2020internship=tcp:5432"
